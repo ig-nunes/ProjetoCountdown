@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+
+/* Ajeitando as decorações: */
+
+.top-image, .bottom-image {
+    width: 100vw;
+}
+
+/* Estilizando o conteúdo principal */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilizando o título: 'Ready to launch in...' */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #6C63FF;
+    letter-spacing: 4px;
+    margin: 30px 0;
+}
+
+/* Seção Countdown */
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/* Estilizando o tempo */
+#days, #hours, #mins, #secs, .colon {
+    font-size: 72px;
+    font-weight: 400;
+    color: #4D4C59;
+}
+
+/* Posicionando os 'dois pontos' */
+.colon {
+    align-self: flex-end;
+}
+
+/* Orientando os títulos dos tempos */
+.time-name {
+    font-size: 14px;
+    font-weight: 300;
+    color: #C8C8C8;
+}
+
+/* Texto abaixo do tempo */
+.text {
+    color: #9C9AB6;
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+/* Estilizando o botão de 'inscreva-se' */
+button {
+    width: 160px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6C63FF;
+    color: #ffffff;
+    font-size: 16px;
+}
